@@ -5,6 +5,9 @@ body{
 
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #3d3d3d;
+
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .title{
@@ -66,4 +69,18 @@ figure img{
 
 .contato_info-descricao{
     margin-left: 10px;
+}
+
+.rodape{
+    padding-left: 1.75em 0; /*espaçmento interno 75% maior qdo que a fonte da página*/
+    font-size: 1.1rem; /*fonte 10% maior do que a fonte da página*/
+}
+
+.rodape_logo{
+    width: 6em; /*largura 6x o tamanho da fonte da página*/
+}
+
+.rodape_copyright{
+    display: inline; /*deixar elemento na mesma linha que a logo*/
+    margin-left: 1em;
 }
